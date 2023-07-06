@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+/* Header style */
 .header-content{
     background-color: rgb(35, 35, 35);
     color: white;
@@ -22,4 +23,39 @@
     font-size: 18px;
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Banner Style  */
+.banner-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* border: 3px solid black; */
+    background-image: url('images/background.png'), linear-gradient(45deg, rgb(8,8,8), rgb(54,55,54));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.banner-img{
+    width: 350px;
+}
+.banner-text h1{
+    font-size: 54px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+.banner-text p{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.btn{
+    padding: 12px;
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
 }
