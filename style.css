@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-content{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.l-img{
+    width: 120px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 12px;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
